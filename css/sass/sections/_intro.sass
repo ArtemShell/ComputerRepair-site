@@ -1,0 +1,29 @@
+#intro
+    display: flex
+    align-items: center
+    background: linear-gradient(rgba(0, 0, 0, $intro_img_opacity + ($intro_img_opacity * $gradient_percent)), rgba(0, 0, 0, $intro_img_opacity)),  url("../img/intro_background.jpg") no-repeat
+    color: $intro_text_color
+    &_content
+        margin: 0 auto
+        padding-bottom: 15vh 
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        h1
+            margin: 0
+            margin-bottom: .8rem
+            font-size: 2rem
+        p 
+            margin: 0
+            font-size: 2rem
+            font-variant: small-caps
+        &__order-button
+            margin-top: 1.8rem
+            padding: 1rem 2rem
+            background: #62509a
+            border: none
+            border-radius: 2rem
+            color: $intro_text_color
+            font-size: 1.5rem
+            cursor: pointer

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!-- META -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Адаптивный сайт</title>
+
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="telephones">
+			<a href="tel:+7">+7 (000) 000-00-00</a>
+			<a href="tel:+7">+7 (000) 000-00-01</a>
+		</div>
+		<div class="logo">
+			<h1>Computer Repair</h1>
+			<h3 class="slogan">Ремонт компьютеров</h3>
+		</div>
+		<div class="place">
+			<span class="city">г. Владивосток</span>
+			<div class="address">ул. Светланская, 16</div>
+			
+		</div>
+	</header>
+	<main>
+		<section id="intro">
+			<div id="intro_content">
+				<h1>Ремонт компьютеров и ноутбуков</h1>
+				<p>Делаем быстро и качественно</p>
+				<button id="intro_content__order-button">
+					Оставить заявку
+				</button>
+			</div>
+		</section>
+		<section id="service">
+			<h1>Мы предлагаем</h1>
+			<div id="service_content">
+				<div class="grid">
+
+					<div class="row">
+						<div class="item">
+							<img src="img/services/s1.png" alt="">
+							<span>Ремонт компьютеров</span>
+							<button>Заказать</button>
+						</div>
+						<div class="item">
+							<img src="img/services/s2.png" alt="">
+							<span>Ремонт ноутбуков</span>
+							<button>Заказать</button>
+						</div>
+						<div class="item">
+							<img src="img/services/s3.png" alt="">
+							<span>Компьютерная помощь</span>
+							<button>Заказать</button>
+						</div>
+						<div class="item">
+							<img src="img/services/s4.png" alt="">
+							<span>Настройка сети</span>
+							<button>Заказать</button>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="item">
+							<img src="img/services/s5.png" alt="">
+							<span>Ремонт компьютеров</span>
+							<button>Заказать</button>
+						</div>
+						<div class="item">
+							<img src="img/services/s6.png" alt="">
+							<span>Ремонт ноутбуков</span>
+							<button>Заказать</button>
+						</div>
+						<div class="item">
+							<img src="img/services/s7.png" alt="">
+							<span>Компьютерная помощь</span>
+							<button>Заказать</button>
+						</div>
+						<div class="item">
+							<img src="img/services/s8.png" alt="">
+							<span>Настройка сети</span>
+							<button>Заказать</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<h1>Оставить заявку</h1>
+			<div id="contact_content">
+				<div id="contact_content_map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2a10b28baa243766b26fcef2571ddba7212e95871d605012be7bbe8fdc9eed07&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+				</div>
+				<div id="contact_content_form">
+					<form action="php/contant.php" method="post">
+						<p>Заполните форму:</p>
+						<input type="text" name="name" placeholder="Ваше имя">
+						<input type="tel" name="tel" placeholder="Номер телефона">
+						<input type="text" name="address" placeholder="Адрес">
+						<textarea name="warning" cols="30" rows="10" placeholder="Опишите проблему"></textarea>
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
+			</div>
+		</setcion>
+	</main>
+	<footer>
+		<a href="http://shelep.ml">&copy; Артемий Шелеп</a>, 2021
+	</footer>
+</body>
+</html>
