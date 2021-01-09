@@ -107,6 +107,11 @@ header .logo .slogan {
   text-align: center;
 }
 
+#intro_content a {
+  color: white;
+  text-decoration: none;
+}
+
 #intro_content h1 {
   margin: 0;
   margin-bottom: .8rem;
@@ -193,9 +198,13 @@ header .logo .slogan {
   background: #62509a;
   border: none;
   border-radius: 2rem;
-  color: white;
   font-size: 1rem;
   cursor: pointer;
+}
+
+#service_content .item button a {
+  color: white;
+  text-decoration: none;
 }
 
 #contact {
